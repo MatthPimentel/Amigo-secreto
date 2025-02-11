@@ -18,7 +18,10 @@ function adicionarAmigo() {
 }
 
 // Limpar o campo de entrada após adicionar o amigo
-document.getElementById('amigo').value = ""
+function limparCampo(){ 
+    document.getElementById('amigo').value = "" ;
+}
+
 
 //funçao para atualizar a lista 
 function atualizarListaDeAmigos() {
